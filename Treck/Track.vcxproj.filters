@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Track.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="TrackTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="AlbumTest.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Media.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Media.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="tests">
+      <UniqueIdentifier>{60180c3a-2c46-433a-98e5-533265f038da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
